@@ -85,16 +85,16 @@ img {
   display: block;
 }
 
-nav {
+/*nav {
   /*margin: 0px auto 80px;
   padding: 10px 10px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   border-bottom: 1px solid #690094;
-  /*background-color:lightblue;*/
+  /*background-color:lightblue;
   
-}
+}*/
 
 nav a {
   margin-left: 12px;

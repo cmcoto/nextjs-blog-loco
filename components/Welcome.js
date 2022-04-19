@@ -8,6 +8,9 @@ import { motion } from "framer-motion"
 export default function Welcome() {
     return (
     <div className="Welcome">
+        <h2>
+          <quote>"Health is not everything, but without health everything is nothing."</quote> - Arthur Schopenhauer
+        </h2>
         <h3>
            Welcome to the Kinesiology Praxis of <Link href="/about"><a>Carlos Coto</a></Link>
         </h3>
