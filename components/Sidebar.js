@@ -16,8 +16,8 @@ class Sidebar extends React.Component {
     // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
     return (
       <Menu>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
+        <a id="home" className="menu-item" href="/">HOME</a>
+        <a id="about" className="menu-item" href="/about">ABOUT</a>
         
         {/*<a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
         
