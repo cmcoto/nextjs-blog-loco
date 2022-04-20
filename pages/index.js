@@ -133,7 +133,7 @@ export default function Home({ allPostsData }) {
               transition: { duration: 0.1 },
             }}
             whileTap={{ scale: 0.9 }}
-            href="https://nextjs.org/docs" className={utilStyles.card} style={{backgroundColor: "#4682B4"}}>
+            href="/kinesiology" className={utilStyles.card} style={{backgroundColor: "#4682B4"}}>
               <h2>Kinesiology&rarr;</h2>
               <li>Applied Physiology</li>
               <li>Sport Kinesiology</li>
@@ -174,6 +174,17 @@ export default function Home({ allPostsData }) {
             href="https://github.com/vercel/next.js/tree/master/examples" className={utilStyles.card} style={{backgroundColor: "lightblue"}}>
               <h2>Biomagnetic Pairs from Dr. Isaac Goiz Durán&rarr;</h2>
               <p>I created HandLink Technique to be able to <strong>treat ANY</strong> negative emotion or negative thought</p>
+            </motion.a>
+
+            <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.1 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            href="https://github.com/vercel/next.js/tree/master/examples" className={utilStyles.card} style={{backgroundColor: "lightblue"}}>
+              <h2>SOTAI&rarr;</h2>
+              <p>I use Sotai and Yin Sotai to help with structural and no me acuerdo... </p>
             </motion.a>
           
         </div>

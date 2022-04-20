@@ -13,7 +13,7 @@ export default function Coto() {
       <Head>
         <title>Kinesiology</title>
       </Head>
-      <Link href="/">
+     {/* <Link href="/">
               <a>
                 <Image 
                   priority
@@ -23,21 +23,18 @@ export default function Coto() {
                   width={348}
                   
                 />
-              </a>
-            </Link>
+                </a>
+            </Link>*/}
       <div className="middlePage"> 
     <section className={utilStyles.headingMd}>
         
         <h3>Kinesiology</h3>
-        <p>
-         <p>I am the creator of HandLink Technique, an Energy Psychology method to deal with ANY negative emotion, and negative thoughts.</p> 
+        
+         <p>Kinesiology is a holistic method of complementary therapy that uses muscle monitoring, as a biofeedback loop, to search the body for inbalances that may cause disease. </p> 
+         <p>If the human body is balanced, then the body is healthy. </p>
+         <p>Kinesiology is based on Western and Eastern healing methods.</p>
+          
           <br />
-          <li>Kinesiology (Applied Physiology, Sport Kinesiology, Touch For Health)</li>
-          <li>Psychology Counseling (Anxiety Disorders, Eating Disorders, Psychooncology)</li> 
-          <li>NLP</li>
-          <li>Ericksonian Hypnosis</li> 
-          <li>Biomagnetism by Dr. Goiz</li>
-        </p>
     </section>
       </div>
     </Layout>
