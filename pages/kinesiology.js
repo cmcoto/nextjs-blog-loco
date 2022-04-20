@@ -30,7 +30,7 @@ export default function Coto() {
         
         <h3>Kinesiology</h3>
         
-         <p>Kinesiology is a holistic method of complementary therapy that uses muscle monitoring, as a biofeedback loop, to search the body for inbalances that may cause disease. </p> 
+         <p>Kinesiology is a holistic method of complementary therapy that is gentle and non invasive. It uses muscle monitoring, as a biofeedback loop, to search the body for inbalances that may cause disease. </p> 
          <p>If the human body is balanced, then the body is healthy. </p>
          <p>Kinesiology is based on Western  and Eastern Traditional Chinese healing methods.</p>
          <p>With Kinesiology you may identify and balance health problems and disorders in the physical, mental and spiritual areas.</p>
