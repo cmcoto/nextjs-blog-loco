@@ -6,6 +6,8 @@ import Link from 'next/link'
 import Date from '../components/date'
 import { motion } from "framer-motion"
 import { useLocomotiveScroll } from 'react-locomotive-scroll';
+import React from "react";
+import { InlineWidget } from 'react-calendly';
 
 
 
@@ -207,6 +209,11 @@ export default function Home({ allPostsData }) {
           </li>
           ))}
         </ul>
+      </section>
+      <section className="Scheduler" id="Scheduler">
+      {/*<!-- Calendly badge widget begin -->*/}
+      <InlineWidget url="https://calendly.com/cmcoto" />
+{/*<!-- Calendly badge widget end -->*/}
       </section>
     </div>
     </Layout>

@@ -16,6 +16,10 @@ export default function Welcome() {
         </h3>
         
         <a className={styles.center} href="tel:+41798591050">+41 79 859 10 50</a>
+       
+        {/*<Link href="/#Scheduler" scroll={false}><a>Book a Session!</a></Link>*/}
+       
+
         <motion.p className={styles.center} whileInView={{ opacity: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1] }} transition = {{
           delay: 2.0,
           ease: "easeOut",
