@@ -9,5 +9,9 @@ export default {
     search: 'Search',
     aboutPage: '',
     prueba: 'This is a Tryout',
-    aboutCarlos: 'About Me'
+    aboutCarlos: 'About Me',
+    menu_home: 'HOME',
+    menu_about: 'ABOUT ME',
+    home: '/',
+    about_link: '/about',
   };

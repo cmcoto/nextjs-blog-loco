@@ -9,5 +9,9 @@ export default {
     search: 'Search',
     aboutPage: '',
     prueba: 'Hallo, mein Name ist Carlos Coto. Ich komme aus El Salvador, Mittelamerika und lebe derzeit in Lengnau BE, Schweiz.',
-    aboutCarlos: 'Uber Mich'
+    aboutCarlos: 'Uber Mich',
+    menu_home: 'HOME',
+    menu_about: 'UBER MICH',
+    home: '/de',
+    about_link: '/de/about',
   };
