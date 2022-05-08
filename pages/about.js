@@ -6,7 +6,16 @@ import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
 import Image from 'next/image'
 
+import { useRouter } from 'next/router';
+import en from '../locales/en';
+import de from '../locales/de';
+
+
 export default function Coto() {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === 'en' ? en : de;
+
   return (
     <Layout>
       <Head>
@@ -27,7 +36,7 @@ export default function Coto() {
       <div className="middlePage"> 
     <section className={utilStyles.headingMd}>
         
-        <h3>About Me</h3>
+        <h3>{ t.aboutCarlos }</h3>
         <p>Hello my name is Carlos Coto. I am from El Salvador, Central America, currently living in Lengnau BE, Switzerland.
         </p>
         <p>I'm a Clinical Psychologist and ex-university professor, 13 years, from the School of Psychology, Universidad Dr. Jose Matias Delgado.</p>

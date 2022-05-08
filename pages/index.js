@@ -9,9 +9,16 @@ import { useLocomotiveScroll } from 'react-locomotive-scroll';
 import React from "react";
 import { InlineWidget } from 'react-calendly';
 
+import { useRouter } from 'next/router';
+import en from '../locales/en';
+import de from '../locales/de';
 
 
 export default function Home({ allPostsData }) {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === 'en' ? en : de;
+
   return (
     <Layout home>
       <Head>

@@ -2,14 +2,21 @@ import Link from 'next/link'
 import styles from './layout.module.css'
 import { motion } from "framer-motion"
 
+import { useRouter } from 'next/router';
+import en from '../locales/en';
+import de from '../locales/de';
 
 
 
 export default function Welcome() {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === 'en' ? en : de;
+
     return (
     <div className="Welcome">
         <h2>
-          <quote>"Health is not everything, but without health everything is nothing."</quote> - Arthur Schopenhauer
+          <quote> {t.quote_arthur} </quote> 
         </h2>
         <h3>
            Welcome to the Kinesiology Praxis of <Link href="/about"><a>Carlos Coto</a></Link>
