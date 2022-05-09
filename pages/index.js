@@ -122,8 +122,8 @@ export default function Home({ allPostsData }) {
         }}
         whileTap={{ scale: 0.9 }}
         href="/about" className={utilStyles.card} style={{backgroundColor: "#D8BFD8"}}>
-        <h2>Hello</h2>
-        <p>I'm a clinical Psychologist from El Salvador, Central America. Ex-Professor of Psychology for 13 years. My specialties are: Anxiety Disorders, Eating Disorders, Psycho-oncology, and Trauma.</p>
+        <h2>{ t.hello }</h2>
+        <p>{ t.i_am }</p>
          <p> 
           <br />
           <strong>I also know:</strong>

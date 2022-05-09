@@ -6,6 +6,8 @@ export default {
     deep: 'DEEP',
     blue_tag: 'describes what I do with: Kinesiology, Psychology, Hypnosis, Biomagnetism... for you:',
     green_tag:'is the change obtained with: Kinesiology, Psychology, Hypnosis, Biomagnetism... in you:',
+    hello: 'Hello',
+    i_am: 'I am a clinical Psychologist from El Salvador, Central America. Ex-Professor of Psychology for 13 years. My specialties are: Anxiety Disorders, Eating Disorders, Psycho-oncology, and Trauma.',
     subtitle: 'Accelerating science',
     quote_arthur:'"Health is not everything, but without health everything is nothing." - Arthur Schopenhauer',
     signin: 'Sign In',
