@@ -1,4 +1,11 @@
 export default {
+    site_title: 'Kinesiology Coto',
+    scroll: 'Scroll',
+    welcome: 'Welcome to the Kinesiology Praxis of',
+    yellow_tag: 'is a Greek word that means:',
+    deep: 'DEEP',
+    blue_tag: 'describes what I do with: Kinesiology, Psychology, Hypnosis, Biomagnetism... for you:',
+    green_tag:'is the change obtained with: Kinesiology, Psychology, Hypnosis, Biomagnetism... in you:',
     subtitle: 'Accelerating science',
     quote_arthur:'"Health is not everything, but without health everything is nothing." - Arthur Schopenhauer',
     signin: 'Sign In',

@@ -61,7 +61,7 @@ export default function Home({ allPostsData }) {
         
         whileInView= {{scale: [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1]}}
         data-scroll-target="#Angebot"
-        ><strong>βαθύς (Bathus)</strong> is a Greek word that means: <strong>DEEP</strong>.
+        ><strong>βαθύς (Bathus)</strong> {t.yellow_tag} <strong>{t.deep}</strong>.
         </motion.p>
         <br />
         <br />
@@ -87,7 +87,7 @@ export default function Home({ allPostsData }) {
           
         }}
         
-        style={{ originX: 0.3 }} ><strong>Deep</strong> describes what I do with: <strong>Kinesiology</strong>, <strong>Psychology</strong>, <strong>Hypnosis</strong>, <strong>Biomagnetism</strong>... for you:<strong>↓</strong></motion.p>
+        style={{ originX: 0.3 }} ><strong>{t.deep}</strong> { t.blue_tag }<strong>↓</strong></motion.p>
         <div className={utilStyles.grid} data-scroll  data-scroll-speed="5">
         
         <motion.p
@@ -112,7 +112,7 @@ export default function Home({ allPostsData }) {
           
         }}
         
-        style={{ originX: 0.8 }} ><strong>Deep</strong> is the change obtained with: <strong>Kinesiology</strong>, <strong>Psychology</strong>, <strong>Hypnosis</strong>, <strong>Biomagnetism</strong>... in you:<strong>↓</strong></motion.p>
+        style={{ originX: 0.8 }} ><strong>Deep</strong> { t.green_tag }<strong>↓</strong></motion.p>
         <div className={utilStyles.grid} data-scroll  data-scroll-speed="5"></div>
 
         <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 

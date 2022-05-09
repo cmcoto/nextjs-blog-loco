@@ -8,12 +8,21 @@ import Navbar from './Navbar'
 import { motion } from "framer-motion"
 import Welcome from './Welcome'
 import Sidebar from './Sidebar'
+import { useRouter } from 'next/router';
+import en from '../locales/en';
+import de from '../locales/de';
 
 
 const name = 'Kinesiology Coto'
-export const siteTitle = 'Kinesiology Coto'
+export const siteTitle =  'Kinesiologie Coto'
+
 
 export default function Layout({ children, home }) {
+  //The following three are for translation purposes of EN and DE
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === 'en' ? en : de;
+
   return (
     
     <div className={styles.container}>
@@ -52,7 +61,7 @@ export default function Layout({ children, home }) {
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading4XL}>{name}</h1>
+            <h1 className={utilStyles.heading4XL}>{t.site_title}</h1>
           </>
         ) : (
           <>

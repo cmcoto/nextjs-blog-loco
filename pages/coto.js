@@ -6,6 +6,8 @@ import { SideNav } from '../components/sideNav'
 import utilStyles from '../styles/utils.module.css'
 
 
+
+
 export default function Coto() {
   return (
     <Layout>
