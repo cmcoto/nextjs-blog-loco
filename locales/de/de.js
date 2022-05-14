@@ -7,7 +7,8 @@ export default {
     blue_tag: 'beschreibt, was ich mache mit: Kinesiologie, Psychologie, Hypnose, Biomagnetismus... für Sie:',
     green_tag:'ist die Veränderung, die erreicht wird mit: Kinesiologie, Psychologie, Hypnose, Biomagnetismus... in dir:',
     hello: 'Hallo',
-    i_am: 'Ich bin ein klinischer Psychologe aus El Salvador, Mittelamerika. Ex-Professor für Psychologie seit 13 Jahren. Meine Spezialgebiete sind: Angststörungen, Essstörungen, Psychoonkologie und Trauma.',
+    i_am: 'Ich bin ein klinischer Psychologe aus El Salvador, Mittelamerika. * In der Schweiz noch nicht anerkannt * Ex-Professor für Psychologie seit 13 Jahren. Meine Spezialgebiete sind: Angststörungen, Essstörungen, Psychoonkologie und Trauma.',
+    i_know: 'Ich weiß auch:',
     subtitle: 'Accelerating science',
     quote_arthur:'"Gesundheit ist nicht alles, aber ohne Gesundheit ist alles nichts." - Arthur Schopenhauer',
     signin: 'Sign In',
@@ -31,5 +32,18 @@ export default {
     kine_page_p3: 'Ich habe folgende Methoden studiert: Touch For Health 1-4, Applied Physiology 1-5, Sport Kinesiology 1 mit John Maguire, Simply The Brain mit Jacque Mooney, Gui: Understanding and Transporting Negative Energy mit Ron Wayman.',
     kine_page_p4: 'Mit der Hilfe von Jacque Mooney konnte ich die Handlink-Technik mit der angewandten Physiologie verbinden, sodass ich die Geschwindigkeit von Handlink mit der robusten Basis der angewandten Physiologie in der Heilung nutzen kann.',
     kine_page_cost: 'Da ich noch auf Diplom studiere, werde ich hier in der Schweiz noch nicht von den Versicherungen akzeptiert. Daher betragen die Kosten pro Stunde: 45 CHF',
-    kine_page_title: 'Uber Kinesiologie'
+    kine_page_title: 'Uber Kinesiologie',
+    nlp: 'NLP',
+    hypnosis: "Hypnose nach Erickson",
+    biomagnetism: 'Biomagnetismus nach Dr. Goiz',
+    ap: 'Applied Physiology',
+    sport_k: 'Sport Kinesiologie',
+    neurokinesiology: 'Neurokinesiologie',
+    tfh: 'Touch For Health',
+    psychology: 'Psychologische Beratung',
+    anxiety: 'Angststörungen',
+    eating: 'Eating Dosorders',
+    trauma: 'Trauma',
+    psychooncology: 'Psychoonkologie'
+
   };

@@ -7,7 +7,8 @@ export default {
     blue_tag: 'describes what I do with: Kinesiology, Psychology, Hypnosis, Biomagnetism... for you:',
     green_tag:'is the change obtained with: Kinesiology, Psychology, Hypnosis, Biomagnetism... in you:',
     hello: 'Hello',
-    i_am: 'I am a clinical Psychologist from El Salvador, Central America. Ex-Professor of Psychology for 13 years. My specialties are: Anxiety Disorders, Eating Disorders, Psycho-oncology, and Trauma.',
+    i_am: 'I am a clinical Psychologist from El Salvador, Central America. * Not yet recognized in Switzerland * Ex-Professor of Psychology for 13 years. My specialties are: Anxiety Disorders, Eating Disorders, Psycho-oncology, and Trauma.',
+    i_know: 'I also know:',
     subtitle: 'Accelerating science',
     quote_arthur:'"Health is not everything, but without health everything is nothing." - Arthur Schopenhauer',
     signin: 'Sign In',
@@ -31,5 +32,18 @@ export default {
     kine_page_p3: 'I have studied the following methods: Touch For Health 1-4, Applied Physiology 1-5, Sport Kinesiology 1 with John Maguire, Simply The Brain with Jacque Mooney, Gui: Understanding and Transporting Negative Energy with Ron Wayman.',
     kine_page_p4: 'With the help of Jacque Mooney, I have been able to connect Handlink Technique with Applied Physiology, so I may use the speed of Handlink whith the robust base that Applied Physiology has in healing.',
     kine_page_cost: 'Since Im still studying to have a Diploma, I am still not accepted by the Insurance Companies here in Switzerland. Therefore the cost per hour is: 45 CHF ',
-    kine_page_title: 'About Kinesiology'
+    kine_page_title: 'About Kinesiology',
+    nlp: 'NLP',
+    hypnosis: "Ericksonian Hypnosis",
+    biomagnetism: 'Biomagnetism by Dr. Goiz',
+    ap: 'Applied Physiology',
+    sport_k: 'Sport Kinesiology',
+    neurokinesiology: 'Neurokinesiology',
+    tfh: 'Touch For Health',
+    psychology: 'Psychology Counselling',
+    anxiety: 'Anxiety Disorders',
+    eating: 'Eating Disorders',
+    trauma: 'Trauma',
+    psychooncology: 'Psychooncology'
+
   };

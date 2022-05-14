@@ -126,12 +126,12 @@ export default function Home({ allPostsData }) {
         <p>{ t.i_am }</p>
          <p> 
           <br />
-          <strong>I also know:</strong>
-          <li>Kinesiology</li>
+          <strong>{ t.i_know }</strong>
+          <li>{t.kinesiology}</li>
          
-          <li>NLP</li>
-          <li>Ericksonian Hypnosis</li> 
-          <li>Biomagnetism by Dr. Goiz</li>
+          <li>{t.nlp}</li>
+          <li>{t.hypnosis}</li> 
+          <li>{t.biomagnetism}</li>
         </p>
         </motion.a>
         
@@ -143,11 +143,11 @@ export default function Home({ allPostsData }) {
             }}
             whileTap={{ scale: 0.9 }}
             href={ t.kinesiology_link } className={utilStyles.card} style={{backgroundColor: "#4682B4"}}>
-              <h2>Kinesiology&rarr;</h2>
-              <li>Applied Physiology</li>
-              <li>Sport Kinesiology</li>
-              <li>Neurokinesiology</li>
-              <li>Touch For Health</li>
+              <h2>{t.kinesiology}&rarr;</h2>
+              <li>{t.ap}</li>
+              <li>{t.sport_k}</li>
+              <li>{t.neurokinesiology}</li>
+              <li>{t.tfh}</li>
             </motion.a>
 
             <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
