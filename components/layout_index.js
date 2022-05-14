@@ -94,7 +94,7 @@ export default function Layout({ children, home }) {
       {!home && (
       <motion.div whileHover={{ scale: 1.2 }}  className={styles.backToHome} >
         <Link href="/">
-          <a>← Back to home</a>
+          <a>← { t.back_to_home }</a>
         </Link>
       </motion.div>
       )}

@@ -7,11 +7,19 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import { motion } from "framer-motion"
 import Sidebar from './Sidebar'
+import { useRouter } from 'next/router';
+import en from '../locales/en/en';
+import de from '../locales/de/de';
 
 const name = 'Carlos Coto'
 export const siteTitle = 'Kinesiology Coto'
 
 export default function Layout({ children, home }) {
+  //The following three are for translation purposes of EN and DE
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === 'en' ? en : de;
+
   return (
     <div className={styles.container}>
       <Head>
@@ -71,7 +79,7 @@ export default function Layout({ children, home }) {
       {!home && (
       <motion.div whileHover={{ scale: 1.2 }} className={styles.backToHome} >
         <Link href="/">
-          <a>← Back to home</a>
+          <a>← { t.back_to_home }</a>
         </Link>
       </motion.div>
       )}

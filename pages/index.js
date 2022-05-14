@@ -142,7 +142,7 @@ export default function Home({ allPostsData }) {
               transition: { duration: 0.1 },
             }}
             whileTap={{ scale: 0.9 }}
-            href="/kinesiology" className={utilStyles.card} style={{backgroundColor: "#4682B4"}}>
+            href={ t.kinesiology_link } className={utilStyles.card} style={{backgroundColor: "#4682B4"}}>
               <h2>Kinesiology&rarr;</h2>
               <li>Applied Physiology</li>
               <li>Sport Kinesiology</li>

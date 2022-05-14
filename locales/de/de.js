@@ -16,6 +16,7 @@ export default {
     about: 'About',
     news: 'News',
     search: 'Search',
+    back_to_home: 'Zurück zur Hauptseite',
     aboutPage: '',
     prueba: 'Hallo, mein Name ist Carlos Coto. Ich komme aus El Salvador, Mittelamerika und lebe derzeit in Lengnau BE, Schweiz.',
     aboutCarlos: 'Uber Mich',
@@ -23,4 +24,11 @@ export default {
     menu_about: 'UBER MICH',
     home: '/de',
     about_link: '/de/about',
+    kinesiology: 'Kinesiologie',
+    kinesiology_link: '/de/kinesiology',
+    kine_page_p1: 'Kinesiologie ist eine ganzheitliche Methode der komplementären Therapie, die sanft und nicht invasiv ist. Es verwendet die Muskelüberwachung als Biofeedback-Schleife, um den Körper nach Ungleichgewichten zu durchsuchen, die Krankheiten verursachen können.',
+    kine_page_p2: 'Wenn der menschliche Körper ausgeglichen ist, dann ist der Körper gesund. Kinesiologie basiert auf westlichen und östlichen traditionellen chinesischen Heilmethoden. Mit Kinesiologie können Sie gesundheitliche Probleme und Störungen im körperlichen, seelischen und seelischen Bereich erkennen und ausgleichen. Ihr Körper weiß, warum er aus dem Gleichgewicht geraten ist, und indem Sie dieses Gleichgewicht wiedererlangen, gewinnen Sie an Gesundheit.',
+    kine_page_p3: 'Ich habe folgende Methoden studiert: Touch For Health 1-4, Applied Physiology 1-5, Sport Kinesiology 1 mit John Maguire, Simply The Brain mit Jacque Mooney, Gui: Understanding and Transporting Negative Energy mit Ron Wayman.',
+    kine_page_p4: 'Mit der Hilfe von Jacque Mooney konnte ich die Handlink-Technik mit der angewandten Physiologie verbinden, sodass ich die Geschwindigkeit von Handlink mit der robusten Basis der angewandten Physiologie in der Heilung nutzen kann.',
+    kine_page_cost: 'Da ich noch auf Diplom studiere, werde ich hier in der Schweiz noch nicht von den Versicherungen akzeptiert. Daher betragen die Kosten pro Stunde: 45 CHF'
   };
