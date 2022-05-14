@@ -20,7 +20,7 @@ export default function Coto() {
   return (
     <Layout>
       <Head>
-        <title>Kinesiology</title>
+        <title>{t.kine_page_title}</title>
       </Head>
      {/* <Link href="/">
               <a>

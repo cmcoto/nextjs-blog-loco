@@ -121,7 +121,7 @@ export default function Home({ allPostsData }) {
           transition: { duration: 0.1 },
         }}
         whileTap={{ scale: 0.9 }}
-        href="/about" className={utilStyles.card} style={{backgroundColor: "#D8BFD8"}}>
+        href={ t.about_link } className={utilStyles.card} style={{backgroundColor: "#D8BFD8"}}>
         <h2>{ t.hello }</h2>
         <p>{ t.i_am }</p>
          <p> 
