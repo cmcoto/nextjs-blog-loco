@@ -3,8 +3,8 @@ import styles from './layout.module.css'
 import { motion } from "framer-motion"
 
 import { useRouter } from 'next/router';
-import en from '../locales/en';
-import de from '../locales/de';
+import en from '../locales/en/en';
+import de from '../locales/de/de';
 
 
 

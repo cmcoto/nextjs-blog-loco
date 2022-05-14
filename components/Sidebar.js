@@ -2,8 +2,8 @@ import React from 'react';
 import { bubble as Menu } from 'react-burger-menu'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
-import en from '../locales/en';
-import de from '../locales/de';
+import en from '../locales/en/en';
+import de from '../locales/de/de';
 
 
 export default function Sidebar() {

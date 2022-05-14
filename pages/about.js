@@ -7,8 +7,8 @@ import styles from '../components/layout.module.css'
 import Image from 'next/image'
 
 import { useRouter } from 'next/router';
-import en from '../locales/en';
-import de from '../locales/de';
+import en from '../locales/en/en';
+import de from '../locales/de/de';
 
 
 export default function Coto() {

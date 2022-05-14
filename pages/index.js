@@ -10,8 +10,8 @@ import React from "react";
 import { InlineWidget } from 'react-calendly';
 
 import { useRouter } from 'next/router';
-import en from '../locales/en';
-import de from '../locales/de';
+import en from '../locales/en/en';
+import de from '../locales/de/de';
 
 
 export default function Home({ allPostsData }) {
