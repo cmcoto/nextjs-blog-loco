@@ -157,11 +157,11 @@ export default function Home({ allPostsData }) {
             }}
             whileTap={{ scale: 0.9 }}
             href="https://nextjs.org/learn" className={utilStyles.card} style={{backgroundColor: "#717CA3"}}>
-              <h2>Psychology Counselling &rarr;</h2>
-              <li>Anxiety Disorders</li>
-              <li>Eating Disorders</li>
-              <li>Trauma</li> 
-              <li>Psychooncology</li> 
+              <h2> {t.psychology} &rarr;</h2>
+              <li>{t.anxiety}</li>
+              <li>{t.eating}</li>
+              <li>{t.trauma}</li> 
+              <li>{t.psychooncology}</li> 
             </motion.a>
 
             <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
@@ -171,8 +171,8 @@ export default function Home({ allPostsData }) {
             }}
             whileTap={{ scale: 0.9 }}
             href="https://github.com/vercel/next.js/tree/master/examples" className={utilStyles.card} style={{backgroundColor: "#F0DFBD"}}>
-              <h2>HandLink Technique &rarr;</h2>
-              <p>I created HandLink Technique to be able to <strong>treat ANY</strong> negative emotion or negative thought</p>
+              <h2>{t.handlink} &rarr;</h2>
+              <p>{t.handlink_1}</p>
             </motion.a>
             <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
             whileHover={{
@@ -180,9 +180,9 @@ export default function Home({ allPostsData }) {
               transition: { duration: 0.1 },
             }}
             whileTap={{ scale: 0.9 }}
-            href="https://github.com/vercel/next.js/tree/master/examples" className={utilStyles.card} style={{backgroundColor: "lightblue"}}>
-              <h2>Biomagnetic Pairs from Dr. Isaac Goiz Durán&rarr;</h2>
-              <p>I created HandLink Technique to be able to <strong>treat ANY</strong> negative emotion or negative thought</p>
+            href={t.biomagnetism_link} className={utilStyles.card} style={{backgroundColor: "lightblue"}}>
+              <h2>{t.biomagnetism}&rarr;</h2>
+              <p>{t.biomagnetism_2}</p>
             </motion.a>
 
             <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 

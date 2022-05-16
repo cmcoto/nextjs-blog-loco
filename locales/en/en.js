@@ -44,6 +44,13 @@ export default {
     anxiety: 'Anxiety Disorders',
     eating: 'Eating Disorders',
     trauma: 'Trauma',
-    psychooncology: 'Psychooncology'
-
+    psychooncology: 'Psychooncology',
+    handlink: 'HandLink Technique',
+    handlink_1: 'I created HandLing Technique, and with it  ANY negative emotion or negative thought can be treated.',
+    biomagnetism_1: 'The Biomagnetic Pair or Medical Biomagnetism, was created in 1988 by the physician Dr. Isaac Goiz, in Mexico.',
+    biomagnetism_2: 'It consists of the positioning of magnets in specific points of the body to help maintain and restore the internal balance in the organism.',
+    biomagnetism_3: 'I studied at the Medical Biomagnetism School, in Mexico, under Dr. David Goiz. With him I studied Biomagnetism Level 1, and Bioenergetics Level 2.',
+    biomag_page_title: 'About Biomagnetism',
+    biomag_page_cost: '',
+    biomagnetism_link: '/biomagnetism',
   };

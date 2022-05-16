@@ -20,7 +20,7 @@ export default function Kinesiology() {
   return (
     <Layout>
       <Head>
-        <title>{t.kine_page_title}</title>
+        <title>{t.biomag_page_title}</title>
       </Head>
      {/* <Link href="/">
               <a>
@@ -37,12 +37,12 @@ export default function Kinesiology() {
       <div className="middlePage"> 
     <section className={utilStyles.headingMd}>
         
-        <h3>{t.kinesiology}</h3>
+        <h3>{t.biomagnetism}</h3>
 
-        <p>{ t.kine_page_p1 }</p>
-        <p>{ t.kine_page_p2 }</p>
-        <p> { t.kine_page_p3 }</p>
-        <p>{ t.kine_page_p4 }</p>
+        <p>{ t.biomagnetism_1 }</p>
+        <p>{ t.biomagnetism_2 }</p>
+        <p>{ t.biomagnetism_3 }</p>
+       
         <br />
         <strong> {t.kine_page_cost}</strong>
 
