@@ -53,4 +53,5 @@ export default {
     biomag_page_title: 'About Biomagnetism',
     biomag_page_cost: '',
     biomagnetism_link: '/biomagnetism',
+    sotai_p: 'Japanese Therapy used to correct postural, structural imbalances, muscle tension and pain. It uses gentle exercises and direction of ease.',
   };

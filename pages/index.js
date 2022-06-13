@@ -193,7 +193,7 @@ export default function Home({ allPostsData }) {
             whileTap={{ scale: 0.9 }}
             href="https://github.com/vercel/next.js/tree/master/examples" className={utilStyles.card} style={{backgroundColor: "lightblue"}}>
               <h2>SOTAI&rarr;</h2>
-              <p>I use Sotai and Yin Sotai to help with structural and no me acuerdo... </p>
+              <p> { t.sotai_p }</p>
             </motion.a>
           
         </div>

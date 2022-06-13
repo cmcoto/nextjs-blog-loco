@@ -53,4 +53,5 @@ export default {
     biomag_page_title: 'Uber Biomagnetismus',
     biomag_page_cost: '',
     biomagnetism_link: '/de/biomagnetism',
+    sotai_p: 'Japanische Therapie zur Korrektur von posturalen, strukturellen Ungleichgewichten, Muskelverspannungen und Schmerzen. Es verwendet sanfte Übungen und Richtung der Leichtigkeit.',
   };
