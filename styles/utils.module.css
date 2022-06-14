@@ -4,7 +4,10 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  
+
 }
+
 
 .heading2Xl {
   font-size: 2.5rem;
@@ -102,4 +105,12 @@
 #firstPhrase {
   transform: translateX(-50vw);
   transform: rotate(26deg);
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .heading4XL {
+    font-size: 2.5rem;
+  }
+  
 }
