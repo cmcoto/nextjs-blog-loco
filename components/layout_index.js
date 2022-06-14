@@ -11,7 +11,7 @@ import Sidebar from './Sidebar'
 import { useRouter } from 'next/router';
 import en from '../locales/en/en';
 import de from '../locales/de/de';
-
+import es from '../locales/es/es';
 
 const name = 'Kinesiology Coto'
 export const siteTitle =  'Kinesiologie Coto'
@@ -22,6 +22,7 @@ export default function Layout({ children, home }) {
   const router = useRouter();
   const { locale } = router;
   const t = locale === 'en' ? en : de;
+  
 
   return (
     

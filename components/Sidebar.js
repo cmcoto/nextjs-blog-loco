@@ -4,12 +4,13 @@ import Link from 'next/link'
 import { useRouter } from 'next/router';
 import en from '../locales/en/en';
 import de from '../locales/de/de';
+import es from '../locales/es/es';
 
 
 export default function Sidebar() {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? en : de;
+  const t = locale === 'en' ? en : de || es;
 
   const changeLanguage = (e) => {
     const locale = e.target.value;
@@ -30,6 +31,7 @@ export default function Sidebar() {
       >
         <option className="text-black" value="en">EN</option>
         <option className="text-black" value="de">DE</option>
+        <option className="text-black" value="es">ES</option>
     </select>
 
   </Menu>

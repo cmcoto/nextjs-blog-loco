@@ -12,6 +12,7 @@ import { InlineWidget } from 'react-calendly';
 import { useRouter } from 'next/router';
 import en from '../locales/en/en';
 import de from '../locales/de/de';
+import es from '../locales/es/es';
 
 
 export default function Home({ allPostsData }) {

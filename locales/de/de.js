@@ -46,7 +46,7 @@ export default {
     trauma: 'Trauma',
     psychooncology: 'Psychoonkologie',
     handlink: 'HandLink-Technik',
-    handlink_1: 'Ich habe die HandLing-Technik entwickelt, mit der JEDE negative Emotion oder jeder negative Gedanke behandelt werden kann.',
+    handlink_1: 'Ich habe die HandLink-Technik entwickelt, mit der JEDE negative Emotion oder jeder negative Gedanke behandelt werden kann.',
     biomagnetism_1: 'Das Biomagnetische Paar oder medizinischer Biomagnetismus wurde 1988 von dem Arzt Dr. Isaac Goiz in Mexiko entwickelt.',
     biomagnetism_2: 'Es besteht aus der Positionierung von Magneten an bestimmten Stellen des Körpers, um das innere Gleichgewicht im Organismus aufrechtzuerhalten und wiederherzustellen.',
     biomagnetism_3: 'Ich habe an der Medical Biomagnetism School in Mexiko bei Dr. David Goiz studiert. Bei ihm studierte ich Biomagnetismus Stufe 1 und Bioenergetik Stufe 2.',

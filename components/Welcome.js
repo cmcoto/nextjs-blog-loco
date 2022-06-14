@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { useRouter } from 'next/router';
 import en from '../locales/en/en';
 import de from '../locales/de/de';
+import es from '../locales/es/es';
 
 
 
@@ -12,6 +13,7 @@ export default function Welcome() {
   const router = useRouter();
   const { locale } = router;
   const t = locale === 'en' ? en : de;
+  
 
     return (
     <div className="Welcome">
