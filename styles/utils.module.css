@@ -111,6 +111,8 @@
   
   .heading4XL {
     font-size: 2.5rem;
+    padding-left: 15px;
+    padding-right: 05px;
   }
   
 }
