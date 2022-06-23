@@ -12,9 +12,17 @@ import es from '../locales/es/es';
 export default function Welcome() {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? en : de;
   
-
+  //const t =  locale  === 'en' ? en : de || 'de' ? de : es;
+  //const t = locale === 'en' ? en : 'de' ? de : 'es' ? es : nul;
+  const t = (
+    locale === 'en' ? en : // if 
+    locale === 'de' ? de : // else if 
+    locale === 'es' ? es : // else if
+    null // else 
+  );
+  
+  
     return (
     <div className="Welcome">
         <h2>

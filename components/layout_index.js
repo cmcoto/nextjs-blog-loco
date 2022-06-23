@@ -21,8 +21,14 @@ export default function Layout({ children, home }) {
   //The following three are for translation purposes of EN and DE
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? en : de;
-  
+  //const t = locale === 'en' ? en : de;
+  const t = (
+    locale === 'en' ? en : // if 
+    locale === 'de' ? de : // else if 
+    locale === 'es' ? es : // else if
+    null // else 
+  );
+
 
   return (
     

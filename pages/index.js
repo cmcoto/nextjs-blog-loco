@@ -17,10 +17,18 @@ import es from '../locales/es/es';
 
 export default function Home({ allPostsData }) {
   const router = useRouter();
-  const { locale } = router;
-  const t = locale === 'en' ? en : de;
+  const { locale, locales } = router;
+  //const t = locale === 'en' ? en : de || 'es';
+  const t = (
+    locale === 'en' ? en : // if 
+    locale === 'de' ? de : // else if 
+    locale === 'es' ? es : // else if
+    null // else 
+  );
+
 
   return (
+    console.log(locale, locales),
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
