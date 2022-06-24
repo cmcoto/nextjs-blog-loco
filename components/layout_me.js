@@ -10,6 +10,7 @@ import Sidebar from './Sidebar'
 import { useRouter } from 'next/router';
 import en from '../locales/en/en';
 import de from '../locales/de/de';
+import es from '../locales/es/es';
 
 const name = 'Carlos Coto'
 export const siteTitle = 'Kinesiology Coto'
@@ -18,7 +19,12 @@ export default function Layout({ children, home }) {
   //The following three are for translation purposes of EN and DE
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? en : de;
+  const t = (
+    locale === 'en' ? en : // if 
+    locale === 'de' ? de : // else if 
+    locale === 'es' ? es : // else if
+    null // else 
+  );
 
   return (
     <div className={styles.container}>

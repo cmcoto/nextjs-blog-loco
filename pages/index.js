@@ -27,6 +27,7 @@ export default function Home({ allPostsData }) {
   );
 
 
+
   return (
     console.log(locale, locales),
     <Layout home>

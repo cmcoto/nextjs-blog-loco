@@ -9,12 +9,17 @@ import Image from 'next/image'
 import { useRouter } from 'next/router';
 import en from '../locales/en/en';
 import de from '../locales/de/de';
-
+import es from '../locales/es/es';
 
 export default function Coto() {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? en : de;
+  const t = (
+    locale === 'en' ? en : // if 
+    locale === 'de' ? de : // else if 
+    locale === 'es' ? es : // else if
+    null // else 
+  );
 
   return (
     <Layout>

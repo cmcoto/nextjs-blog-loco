@@ -10,7 +10,12 @@ import es from '../locales/es/es';
 export default function Sidebar() {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? en : de || es;
+  const t = (
+    locale === 'en' ? en : // if 
+    locale === 'de' ? de : // else if 
+    locale === 'es' ? es : // else if
+    null // else 
+  );
 
   const changeLanguage = (e) => {
     const locale = e.target.value;
