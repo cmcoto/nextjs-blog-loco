@@ -211,7 +211,7 @@ export default function Home({ allPostsData }) {
     </div>
 
     <div className="bottomPage">
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      {/*<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
@@ -226,8 +226,9 @@ export default function Home({ allPostsData }) {
           </li>
           ))}
         </ul>
-      </section>
+          </section>*/}
       <section className="Scheduler" id="Scheduler">
+        <h2>Schedule a session with me:</h2>
       {/*<!-- Calendly badge widget begin -->*/}
       <InlineWidget url="https://calendly.com/cmcoto" />
 {/*<!-- Calendly badge widget end -->*/}
