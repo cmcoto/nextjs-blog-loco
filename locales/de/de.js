@@ -51,7 +51,7 @@ export default {
     biomagnetism_2: 'Es besteht aus der Positionierung von Magneten an bestimmten Stellen des Körpers, um das innere Gleichgewicht im Organismus aufrechtzuerhalten und wiederherzustellen.',
     biomagnetism_3: 'Ich habe an der Medical Biomagnetism School in Mexiko bei Dr. David Goiz studiert. Bei ihm studierte ich Biomagnetismus Stufe 1 und Bioenergetik Stufe 2.',
     biomag_page_title: 'Uber Biomagnetismus',
-    biomag_page_cost: '',
+    biomag_page_cost: 'Biomagnetismus wird in der Schweiz noch nicht von Versicherungen akzeptiert. Daher werden die Kosten nicht erstattet. Die Kosten pro Stunde betragen: 80 CHF',
     biomagnetism_link: '/de/biomagnetism',
     sotai_p: 'Japanische Therapie zur Korrektur von posturalen, strukturellen Ungleichgewichten, Muskelverspannungen und Schmerzen. Es verwendet sanfte Übungen und Richtung der Leichtigkeit.',
   };

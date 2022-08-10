@@ -51,7 +51,7 @@ export default {
     biomagnetism_2: 'It consists of the positioning of magnets in specific points of the body to help maintain and restore the internal balance in the organism.',
     biomagnetism_3: 'I studied at the Medical Biomagnetism School, in Mexico, under Dr. David Goiz. With him I studied Biomagnetism Level 1, and Bioenergetics Level 2.',
     biomag_page_title: 'About Biomagnetism',
-    biomag_page_cost: '',
+    biomag_page_cost: 'Biomagnetism is not yet accepted by insurance companies in Switzerland. Therefore, the cost is not reimbursed. The cost per hour is: 80 CHF',
     biomagnetism_link: '/biomagnetism',
     sotai_p: 'Japanese Therapy used to correct postural, structural imbalances, muscle tension and pain. It uses gentle exercises and direction of ease.',
   };

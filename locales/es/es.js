@@ -51,7 +51,7 @@ export default {
     biomagnetism_2: 'Consiste en la colocación de imanes en puntos específicos del cuerpo para ayudar a mantener y restablecer el equilibrio interno del organismo.',
     biomagnetism_3: 'Estudié en la Escuela de Biomagnetismo Médico, en México, con el Dr. David Goiz. Con él estudié Biomagnetismo Nivel 1, y Bioenergética Nivel 2.',
     biomag_page_title: 'Sobre Biomagnetismo',
-    biomag_page_cost: '',
+    biomag_page_cost: 'El Biomagnetismo todavia no es aceptado por las compañías de seguros en Suiza. Por lo tanto, el costo no es reembolsado. El costo por hora es: 80 CHF',
     biomagnetism_link: '/biomagnetism',
     sotai_p: 'Terapia Japonesa utilizada para corregir desequilibrios posturales, estructurales, tensión muscular y dolor. Utiliza ejercicios suaves y dirección de soltura.',
   };

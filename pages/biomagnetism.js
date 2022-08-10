@@ -49,7 +49,7 @@ export default function Kinesiology() {
         <p>{ t.biomagnetism_3 }</p>
        
         <br />
-        <strong> {t.kine_page_cost}</strong>
+        <strong> {t.biomag_page_cost}</strong>
 
         
         <br />
