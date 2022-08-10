@@ -10,14 +10,18 @@ import { useRouter } from 'next/router';
 import en from '../locales/en/en';
 import de from '../locales/de/de';
 import es from '../locales/es/es';
+import about_de from '../locales/de/about_de';
+import about_en from '../locales/en/about_en';
+import about_es from '../locales/es/about_es';
 
 export default function Coto() {
   const router = useRouter();
   const { locale } = router;
   const t = (
-    locale === 'en' ? en : // if 
-    locale === 'de' ? de : // else if 
-    locale === 'es' ? es : // else if
+    locale === 'en' ? ( en, about_en ) : // if 
+    locale === 'de' ?  about_de  : // else if 
+    locale === 'es' ? ( es, about_es ) : // else if
+    //locale === 'de' ? about_de :
     null // else 
   );
 
@@ -42,12 +46,11 @@ export default function Coto() {
     <section className={utilStyles.headingMd}>
         
         <h3>{ t.aboutCarlos }</h3>
-        <p>Hello my name is Carlos Coto. I am from El Salvador, Central America, currently living in Lengnau BE, Switzerland.
-        </p>
-        <p>I'm a Clinical Psychologist and ex-university professor, 13 years, from the School of Psychology, Universidad Dr. Jose Matias Delgado.</p>
+        <p> { t.p1 }</p>
+        <p> { t.p2 }</p>
          <p> 
-        <p>I have a Master's in Clinical and Health Psychology, from ITEAP, Malaga Spain.</p> 
-         <p>I am the creator of HandLink Technique, an Energy Psychology method to deal with ANY negative emotion, and negative thoughts.</p> 
+        <p> { t.p3 }</p> 
+         <p> { t.p4 }</p> 
           <br />
           <li>Kinesiology (Applied Physiology, Sport Kinesiology, Touch For Health)</li>
           <li>Psychology Counseling (Anxiety Disorders, Eating Disorders, Psychooncology)</li> 
