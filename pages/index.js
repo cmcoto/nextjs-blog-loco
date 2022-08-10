@@ -122,7 +122,7 @@ export default function Home({ allPostsData }) {
           
         }}
         
-        style={{ originX: 0.8 }} ><strong>Deep</strong> { t.green_tag }<strong>↓</strong></motion.p>
+        style={{ originX: 0.8 }} ><strong>{t.deep}</strong> { t.green_tag }<strong>↓</strong></motion.p>
         <div className={utilStyles.grid} data-scroll  data-scroll-speed="5"></div>
 
         <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
