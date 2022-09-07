@@ -46,8 +46,14 @@ export default function Kinesiology() {
 
         <p>{ t.kine_page_p1 }</p>
         <p>{ t.kine_page_p2 }</p>
-        <p> { t.kine_page_p3 }</p>
+        <strong> { t.kine_page_p3 } </strong>
+        <li><strong>{ t.touch }</strong></li>
+        <li><strong>{ t.ap1to5 }</strong></li>
+        <li><strong>{ t.spk }</strong></li>
+        <li><strong>{ t.stb }</strong></li>
+        <li><strong>{ t.gui }</strong></li>
         <p>{ t.kine_page_p4 }</p>
+       
         <br />
         <strong> {t.kine_page_cost}</strong>
 

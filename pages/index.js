@@ -153,6 +153,7 @@ export default function Home({ allPostsData }) {
             }}
             whileTap={{ scale: 0.9 }}
             href={ t.kinesiology_link } className={utilStyles.card} style={{backgroundColor: "#4682B4"}}>
+              <img src={('../images/manik.png')} />
               <h2>{t.kinesiology}&rarr;</h2>
               <li>{t.ap}</li>
               <li>{t.sport_k}</li>
@@ -166,7 +167,35 @@ export default function Home({ allPostsData }) {
               transition: { duration: 0.1 },
             }}
             whileTap={{ scale: 0.9 }}
+            href="https://github.com/vercel/next.js/tree/master/examples" className={utilStyles.card} style={{backgroundColor: "#D94626"}}>
+              <img src={('../images/ball.jpeg')} height={208}
+                  width={228} />
+              <h2>Corrective Exercise</h2>
+              <p>Corrective Exercises are techniques used to help you address and fix movement imbalances and their compensations, identify what muscles are weak or strong, lengthened or shortened, and what can be done to correct those imbalances in the body, so that you move better, have less problems and pain, during your exercises or in daily life.  </p>
+              <p>International Sport Sciences Association Certified</p>
+            </motion.a>
+
+            <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.1 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            href="https://github.com/vercel/next.js/tree/master/examples" className={utilStyles.card} style={{backgroundColor: "#D9268F"}}>
+             <img src={('../images/sotai.jpeg')} height={208}
+                  width={228}/>
+              <h2>SOTAI&rarr;</h2>
+              <p> { t.sotai_p }</p>
+            </motion.a>
+
+            <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.1 },
+            }}
+            whileTap={{ scale: 0.9 }}
             href="https://nextjs.org/learn" className={utilStyles.card} style={{backgroundColor: "#717CA3"}}>
+              <img src={('../images/manik.png')} />
               <h2> {t.psychology} &rarr;</h2>
               <li>{t.anxiety}</li>
               <li>{t.eating}</li>
@@ -180,7 +209,8 @@ export default function Home({ allPostsData }) {
               transition: { duration: 0.1 },
             }}
             whileTap={{ scale: 0.9 }}
-            href="https://github.com/vercel/next.js/tree/master/examples" className={utilStyles.card} style={{backgroundColor: "#F0DFBD"}}>
+            href="https://www.amazon.com/HandLink-Technique-Carlos-Coto-ebook/dp/B00GEQB58A" className={utilStyles.card} style={{backgroundColor: "#F0DFBD"}}>
+              <img src={('../images/handlink.png')} />
               <h2>{t.handlink} &rarr;</h2>
               <p>{t.handlink_1}</p>
             </motion.a>
@@ -191,20 +221,12 @@ export default function Home({ allPostsData }) {
             }}
             whileTap={{ scale: 0.9 }}
             href={t.biomagnetism_link} className={utilStyles.card} style={{backgroundColor: "lightblue"}}>
+              <img src={('../images/biomag.jpg')} />
               <h2>{t.biomagnetism}&rarr;</h2>
               <p>{t.biomagnetism_2}</p>
             </motion.a>
 
-            <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
-            whileHover={{
-              scale: 1.1,
-              transition: { duration: 0.1 },
-            }}
-            whileTap={{ scale: 0.9 }}
-            href="https://github.com/vercel/next.js/tree/master/examples" className={utilStyles.card} style={{backgroundColor: "lightblue"}}>
-              <h2>SOTAI&rarr;</h2>
-              <p> { t.sotai_p }</p>
-            </motion.a>
+            
           
         </div>
       </section>
