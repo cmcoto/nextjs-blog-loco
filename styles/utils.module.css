@@ -107,6 +107,14 @@
   transform: rotate(26deg);
 }
 
+.centered {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 50%;
+  background-color: red;
+}
+
 @media only screen and (max-width: 600px) {
   
   .heading4XL {

@@ -59,4 +59,7 @@ export default {
     biomag_page_cost: 'Biomagnetismus wird in der Schweiz noch nicht von Versicherungen akzeptiert. Daher werden die Kosten nicht erstattet. Die Kosten pro Stunde betragen: 80 CHF',
     biomagnetism_link: '/de/biomagnetism',
     sotai_p: 'Japanische Therapie zur Korrektur von posturalen, strukturellen Ungleichgewichten, Muskelverspannungen und Schmerzen. Es verwendet sanfte Übungen und Richtung der Leichtigkeit.',
+    correct_1: 'Korrekturübung',
+    correct_p: 'Beheben Sie Bewegungsungleichgewichte und deren Kompensation, identifizieren Sie, welche Muskeln schwach oder stark, verlängert oder verkürzt sind, um weniger Probleme und Schmerzen zu haben.',
+    correct_link: '/de/corrective-exercise',
   };

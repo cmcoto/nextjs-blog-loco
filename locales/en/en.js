@@ -59,4 +59,7 @@ export default {
     biomag_page_cost: 'Biomagnetism is not yet accepted by insurance companies in Switzerland. Therefore, the cost is not reimbursed. The cost per hour is: 80 CHF',
     biomagnetism_link: '/biomagnetism',
     sotai_p: 'Japanese Therapy used to correct postural, structural imbalances, muscle tension and pain. It uses gentle exercises and direction of ease.',
+    correct_1: 'Corrective Exercise',
+    correct_p: 'Fix movement imbalances and their compensations, identify what muscles are weak or strong, lengthened or shortened, in order to have less problems and pain.',
+    correct_link: '/corrective-exercise',
   };

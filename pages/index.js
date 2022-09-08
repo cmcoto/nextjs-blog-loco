@@ -167,12 +167,12 @@ export default function Home({ allPostsData }) {
               transition: { duration: 0.1 },
             }}
             whileTap={{ scale: 0.9 }}
-            href="https://github.com/vercel/next.js/tree/master/examples" className={utilStyles.card} style={{backgroundColor: "#D94626"}}>
-              <img src={('../images/ball.jpeg')} height={208}
-                  width={228} />
-              <h2>Corrective Exercise</h2>
-              <p>Corrective Exercises are techniques used to help you address and fix movement imbalances and their compensations, identify what muscles are weak or strong, lengthened or shortened, and what can be done to correct those imbalances in the body, so that you move better, have less problems and pain, during your exercises or in daily life.  </p>
-              <p>International Sport Sciences Association Certified</p>
+            href={ t.correct_link } className={utilStyles.card} style={{backgroundColor: "#D94626"}}>
+              <img src={('../images/correct.jpeg')} height={228}
+                  width={218} />
+              <h2>{ t.correct_1 }&rarr;</h2>
+              <p>{ t.correct_p }</p>
+              
             </motion.a>
 
             <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
@@ -186,6 +186,18 @@ export default function Home({ allPostsData }) {
                   width={228}/>
               <h2>SOTAI&rarr;</h2>
               <p> { t.sotai_p }</p>
+            </motion.a>
+
+            <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.1 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            href={t.biomagnetism_link} className={utilStyles.card} style={{backgroundColor: "lightblue"}}>
+              <img src={('../images/biomag.jpg')} />
+              <h2>{t.biomagnetism}&rarr;</h2>
+              <p>{t.biomagnetism_2}</p>
             </motion.a>
 
             <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
@@ -214,17 +226,7 @@ export default function Home({ allPostsData }) {
               <h2>{t.handlink} &rarr;</h2>
               <p>{t.handlink_1}</p>
             </motion.a>
-            <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
-            whileHover={{
-              scale: 1.1,
-              transition: { duration: 0.1 },
-            }}
-            whileTap={{ scale: 0.9 }}
-            href={t.biomagnetism_link} className={utilStyles.card} style={{backgroundColor: "lightblue"}}>
-              <img src={('../images/biomag.jpg')} />
-              <h2>{t.biomagnetism}&rarr;</h2>
-              <p>{t.biomagnetism_2}</p>
-            </motion.a>
+            
 
             
           

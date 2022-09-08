@@ -5,55 +5,53 @@ import Navbar from '../components/Navbar'
 import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
 import Image from 'next/image'
+
 import { useRouter } from 'next/router';
 import en from '../locales/en/en';
-
 import de from '../locales/de/de';
 import es from '../locales/es/es';
+import corrective_de from '../locales/de/corrective_de';
+import corrective_en from '../locales/en/corrective_en';
+import corrective_es from '../locales/es/corrective_es';
 
-
-export default function Biomagnetism() {
+export default function Corrective() {
   const router = useRouter();
   const { locale } = router;
   const t = (
-    locale === 'en' ? en : // if 
-    locale === 'de' ? de : // else if 
-    locale === 'es' ? es : // else if
+    locale === 'en' ? ( en, corrective_en ) : // if 
+    locale === 'de' ? corrective_de  : // else if 
+    locale === 'es' ? ( es, corrective_es ) : // else if
+    //locale === 'de' ? about_de :
     null // else 
   );
 
   return (
     <Layout>
       <Head>
-        <title>{t.biomag_page_title}</title>
+        <title>{ t.corrective_title }</title>
       </Head>
-     {/* <Link href="/">
+      <Link href="/">
               <a>
                 <Image 
                   priority
-                  src="/images/carlos.jpg"
-                  //className={utilStyles.borderCircle}
+                  src="/images/correct.jpeg"
+                  className={styles.center}
                   height={508}
                   width={348}
+                  padding-left={200}
+                  
                   
                 />
-                </a>
-            </Link>*/}
+              </a>
+            </Link>
       <div className="middlePage"> 
     <section className={utilStyles.headingMd}>
         
-        <h3>{t.biomagnetism}</h3>
-
-        <p>{ t.biomagnetism_1 }</p>
-        <p>{ t.biomagnetism_2 }</p>
-        <p>{ t.biomagnetism_3 }</p>
-       
-        <br />
-        <strong> {t.biomag_page_cost}</strong>
-
+        <h3>{ t.corrective_title }</h3>
+        <p> { t.p1 }</p>
+        <p> { t.p2 }</p>
+         
         
-        <br />
-        <br />
     </section>
       </div>
     </Layout>
