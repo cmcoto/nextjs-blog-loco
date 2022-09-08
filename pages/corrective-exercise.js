@@ -30,21 +30,20 @@ export default function Corrective() {
       <Head>
         <title>{ t.corrective_title }</title>
       </Head>
-      <Link href="/">
-              <a>
-                <Image 
+      
+      <div className="middlePage"> 
+
+      <Image 
                   priority
                   src="/images/correct.jpeg"
-                  className={styles.center}
+                  className={utilStyles.centered}
                   height={508}
                   width={348}
-                  padding-left={200}
+                  
                   
                   
                 />
-              </a>
-            </Link>
-      <div className="middlePage"> 
+      
     <section className={utilStyles.headingMd}>
         
         <h3>{ t.corrective_title }</h3>

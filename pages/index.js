@@ -50,7 +50,7 @@ export default function Home({ allPostsData }) {
         <br />
         <br />
         <motion.p className="firstPhrase"
-        whileInView="visible" 
+        //whileInView="visible" 
         initial= {{backgroundColor: "none"}}
         animate={{
           
@@ -69,14 +69,14 @@ export default function Home({ allPostsData }) {
 
         
         
-        whileInView= {{scale: [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1]}}
+        whileInView =  {{ scale: [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1]}}
         data-scroll-target="#Angebot"
         ><strong>βαθύς (Bathus)</strong> {t.yellow_tag} <strong>{t.deep}</strong>.
         </motion.p>
         <br />
         <br />
         <motion.p
-        whileInView="visible" 
+        //whileInView="visible" 
         initial= {{backgroundColor: "none"}}
         animate={{
           
@@ -101,7 +101,7 @@ export default function Home({ allPostsData }) {
         <div className={utilStyles.grid} data-scroll  data-scroll-speed="5">
         
         <motion.p
-        whileInView="visible" 
+        //whileInView="visible" 
         initial= {{backgroundColor: "none"}}
         animate={{
           

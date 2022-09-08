@@ -109,10 +109,12 @@
 
 .centered {
   display: block;
-  margin-left: 200px;
+  margin-left: auto;
   margin-right: auto;
   width: 50%;
   background-color: red;
+  
+ 
 }
 
 @media only screen and (max-width: 600px) {
