@@ -37,7 +37,7 @@ export default function Navbar() {
       <div className="select"> 
     <select
         onChange={changeLanguage}
-        defaultValue={ "de" }
+        defaultValue={ locale }
         className="text-white text-shadow-sm text-lg bg-transparent tracking-wide"
       >
         <option className="text-black" value="en">EN</option>
