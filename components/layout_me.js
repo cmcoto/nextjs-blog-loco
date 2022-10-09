@@ -11,6 +11,7 @@ import { useRouter } from 'next/router';
 import en from '../locales/en/en';
 import de from '../locales/de/de';
 import es from '../locales/es/es';
+import React, { useState, useEffect } from 'react';
 
 const name = 'Carlos Coto'
 export const siteTitle = 'Kinesiology Coto'
@@ -25,6 +26,29 @@ export default function Layout({ children, home }) {
     locale === 'es' ? es : // else if
     null // else 
   );
+
+   //FUNCTION FOR SCREEN SIZE AND SHOWING NAVBAR OR NOT
+
+   const [isDesktop, setDesktop] = useState(false);
+
+   useEffect(() => {
+   if (window.innerWidth > 1250) {
+   setDesktop(true);
+   } else {
+   setDesktop(false);
+   }
+   
+   const updateMedia = () => {
+   if (window.innerWidth > 1250) {
+     setDesktop(true);
+   } else {
+     setDesktop(false);
+   }
+   };
+   window.addEventListener('resize', updateMedia);
+   return () => window.removeEventListener('resize', updateMedia);
+   }, []);
+   //---end of screen check
 
   return (
     <div className={styles.container}>
@@ -43,9 +67,24 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+
+
       <div>
-        <Sidebar />
+      
+      {isDesktop ? (
+              
+            <Navbar />
+          ) : (
+            <Sidebar /> 
+          )}
+      
+          
+      
+      
+        
       </div>
+
+
       <header className={styles.header}>
         {home ? (
           <>

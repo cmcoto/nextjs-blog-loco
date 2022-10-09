@@ -87,16 +87,7 @@ img {
   
 }
 
-/*nav {
-  /*margin: 0px auto 80px;
-  padding: 10px 10px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  border-bottom: 1px solid #690094;
-  /*background-color:lightblue;
-  
-}*/
+
 
 nav a {
   margin-left: 12px;
@@ -125,3 +116,24 @@ footer {
   border-top: 1px solid #eaeaea;
 }
 
+@media only screen and (min-width: 1250px) {
+  
+  nav {
+    position: sticky;
+    top: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 1rem;
+    border-bottom: 1px solid #690094;
+    background-color:rgba(255, 255, 0, 0.432);
+    
+    
+    
+  }
+  .select {
+    padding-left: 1rem;
+
+  }
+  
+}

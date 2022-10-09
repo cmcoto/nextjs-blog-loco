@@ -12,7 +12,7 @@ import { useRouter } from 'next/router';
 import en from '../locales/en/en';
 import de from '../locales/de/de';
 import es from '../locales/es/es';
-
+import React, { useState, useEffect } from 'react';
 
 
 
@@ -30,7 +30,35 @@ export default function Layout({ children, home }) {
     locale === 'de' ? de : // else if 
     locale === 'es' ? es : // else if
     null // else 
+
   );
+
+   //FUNCTION FOR SCREEN SIZE AND SHOWING NAVBAR OR NOT
+
+  const [isDesktop, setDesktop] = useState(false);
+
+useEffect(() => {
+if (window.innerWidth > 1250) {
+setDesktop(true);
+} else {
+setDesktop(false);
+}
+
+const updateMedia = () => {
+if (window.innerWidth > 1250) {
+  setDesktop(true);
+} else {
+  setDesktop(false);
+}
+};
+window.addEventListener('resize', updateMedia);
+return () => window.removeEventListener('resize', updateMedia);
+}, []);
+//---end of screen check
+ 
+
+  
+
 
 
   return (
@@ -56,8 +84,17 @@ export default function Layout({ children, home }) {
        
       </Head>
       <div>
-      <Navbar />
-      <Sidebar /> 
+      
+      {isDesktop ? (
+              
+            <Navbar />
+          ) : (
+            <Sidebar /> 
+          )}
+      
+          
+      
+      
         
       </div>
       
