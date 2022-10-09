@@ -56,6 +56,7 @@ export default function Layout({ children, home }) {
        
       </Head>
       <div>
+      <Navbar />
       <Sidebar /> 
         
       </div>
