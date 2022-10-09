@@ -9,6 +9,7 @@ import es from '../locales/es/es';
 
 
 
+
 export default function Welcome() {
   const router = useRouter();
   const { locale } = router;
@@ -25,9 +26,11 @@ export default function Welcome() {
   
     return (
     <div className="Welcome">
+      
         <h2>
           <quote> {t.quote_arthur} </quote> 
         </h2>
+        
         <h3>
         {t.welcome} <Link href="/about"><a>Carlos Coto</a></Link>
         </h3>

@@ -13,6 +13,9 @@ import en from '../locales/en/en';
 import de from '../locales/de/de';
 import es from '../locales/es/es';
 
+
+
+
 const name = 'Kinesiology Coto'
 export const siteTitle =  'Kinesiologie Coto'
 
@@ -60,6 +63,7 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
+          
             <Image
               priority
               src="/images/manik.png"
