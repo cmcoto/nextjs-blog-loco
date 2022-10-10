@@ -32,7 +32,9 @@ export default function Navbar() {
             
             <a id="home" className="menu-item" href={ t.home }>{ t.menu_home }</a>
             <a id="about" className="menu-item" href={ t.about_link }>{ t.menu_about }</a>
+            
             <a id="kinesiology" className="menu-item" href={ t.kinesiology_link }>{ t.kinesiology }</a>
+            
             </div>
         <br />
       <div className="select"> 
