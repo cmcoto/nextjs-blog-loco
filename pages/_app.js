@@ -4,7 +4,10 @@ import styles from '../components/sidebar.css'
 
 
 
+
 function MyApp({ Component, pageProps }) {
+    //Este primer use effect lo agregue porque parecia ayudar a cargar varias veces el locomotive
+    //useEffect(()=> window.dispatchEvent(new Event('resize')), [Component])
   useEffect(() => {
     
       let scroll;
@@ -17,10 +20,14 @@ function MyApp({ Component, pageProps }) {
           });
       });
 
+      
+
       // `useEffect`'s cleanup phase
       return () => scroll.destroy();
      
   });
+
+
   
   return (
     
