@@ -26,6 +26,7 @@ export default function Sidebar() {
     <Menu>
     <a id="home" className="menu-item" href={ t.home }>{ t.menu_home }</a>
     <a id="about" className="menu-item" href={ t.about_link }>{ t.menu_about }</a>
+    <a id="kinesiology" className="menu-item" href={ t.kinesiology_link }>{ t.kinesiology }</a>
     <br />
     {/*<a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
     
