@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /?*
+Disallow: */media/*
+
+Crawl-delay: 5
