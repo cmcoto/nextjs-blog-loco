@@ -61,5 +61,6 @@ export default {
     sotai_p: 'Terapia Japonesa utilizada para corregir desequilibrios posturales, estructurales, tensión muscular y dolor. Utiliza ejercicios suaves y dirección de soltura.',
     correct_1: 'Ejercicio Correctivo',
     correct_p: 'Corrige los desequilibrios del movimiento y sus compensaciones, identifica qué músculos están débiles o fuertes, alargados o acortados, para tener menos problemas y dolores.',
-    correct_link: '/es/corrective-exercise'
+    correct_link: '/es/corrective-exercise',
+    schedule: 'Agenda una sesión conmigo:',
   };

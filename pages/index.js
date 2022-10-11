@@ -252,7 +252,7 @@ export default function Home({ allPostsData }) {
         </ul>
           </section>*/}
       <section className="Scheduler" id="Scheduler">
-        <h2>Schedule a session with me:</h2>
+        <h2>{ t.schedule }</h2>
       {/*<!-- Calendly badge widget begin -->*/}
       <InlineWidget url="https://calendly.com/cmcoto" />
 {/*<!-- Calendly badge widget end -->*/}

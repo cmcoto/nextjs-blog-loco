@@ -62,4 +62,5 @@ export default {
     correct_1: 'Corrective Exercise',
     correct_p: 'Fix movement imbalances and their compensations, identify what muscles are weak or strong, lengthened or shortened, in order to have less problems and pain.',
     correct_link: '/en/corrective-exercise',
+    schedule: 'Schedule a session with me:',
   };

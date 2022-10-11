@@ -62,4 +62,5 @@ export default {
     correct_1: 'Korrekturübung',
     correct_p: 'Beheben Sie Bewegungsungleichgewichte und deren Kompensation, identifizieren Sie, welche Muskeln schwach oder stark, verlängert oder verkürzt sind, um weniger Probleme und Schmerzen zu haben.',
     correct_link: '/de/corrective-exercise',
+    schedule: 'Vereinbaren Sie einen Termin mit mir:',
   };
