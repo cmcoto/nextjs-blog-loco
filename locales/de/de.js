@@ -58,9 +58,10 @@ export default {
     biomag_page_title: 'Uber Biomagnetismus',
     biomag_page_cost: 'Biomagnetismus wird in der Schweiz noch nicht von Versicherungen akzeptiert. Daher werden die Kosten nicht erstattet. Die Kosten pro Stunde betragen: 80 CHF',
     biomagnetism_link: '/de/biomagnetism',
-    sotai_p: 'Japanische Therapie zur Korrektur von posturalen, strukturellen Ungleichgewichten, Muskelverspannungen und Schmerzen. Es verwendet sanfte Übungen und Richtung der Leichtigkeit.',
+    sotai_p: 'Japanische Therapie zur Korrektur von posturalen, strukturellen Ungleichgewichten, Muskelverspannungen und Schmerzen. Es verwendet sanfte Übungen und Richtung der Leichtigkeit. Darüber hinaus kann die Teishin-Akupunkturnadel oder Akupunktur ohne Punktion verwendet werden.',
     correct_1: 'Korrekturübung',
     correct_p: 'Beheben Sie Bewegungsungleichgewichte und deren Kompensation, identifizieren Sie, welche Muskeln schwach oder stark, verlängert oder verkürzt sind, um weniger Probleme und Schmerzen zu haben.',
     correct_link: '/de/corrective-exercise',
     schedule: 'Vereinbaren Sie einen Termin mit mir:',
+    holistic: 'Ganzheitliche Kinesiologie',
   };

@@ -58,9 +58,10 @@ export default {
     biomag_page_title: 'Sobre Biomagnetismo',
     biomag_page_cost: 'El Biomagnetismo todavia no es aceptado por las compañías de seguros en Suiza. Por lo tanto, el costo no es reembolsado. El costo por hora es: 80 CHF',
     biomagnetism_link: '/biomagnetism',
-    sotai_p: 'Terapia Japonesa utilizada para corregir desequilibrios posturales, estructurales, tensión muscular y dolor. Utiliza ejercicios suaves y dirección de soltura.',
+    sotai_p: 'Terapia Japonesa utilizada para corregir desequilibrios posturales, estructurales, tensión muscular y dolor. Utiliza ejercicios suaves y dirección de soltura. Además se puede usar la aguja de Acupuntura Teishin, o Acupuntura sin punción.',
     correct_1: 'Ejercicio Correctivo',
     correct_p: 'Corrige los desequilibrios del movimiento y sus compensaciones, identifica qué músculos están débiles o fuertes, alargados o acortados, para tener menos problemas y dolores.',
     correct_link: '/es/corrective-exercise',
     schedule: 'Agenda una sesión conmigo:',
+    holistic: 'Kinesiología Holística',
   };

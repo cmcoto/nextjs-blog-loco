@@ -156,6 +156,7 @@ export default function Home({ allPostsData }) {
               <img src={('../images/manik.png')} />
               <h2>{t.kinesiology}&rarr;</h2>
               <li>{t.ap}</li>
+              <li>{t.holistic}</li>
               <li>{t.sport_k}</li>
               <li>{t.neurokinesiology}</li>
               <li>{t.tfh}</li>
@@ -181,7 +182,7 @@ export default function Home({ allPostsData }) {
               transition: { duration: 0.1 },
             }}
             whileTap={{ scale: 0.9 }}
-            href="https://github.com/vercel/next.js/tree/master/examples" className={utilStyles.card} style={{backgroundColor: "#D9268F"}}>
+            href={ t.correct_link } className={utilStyles.card} style={{backgroundColor: "#D9268F"}}>
              <img src={('../images/sotai.jpeg')} height={208}
                   width={228}/>
               <h2>SOTAI&rarr;</h2>
