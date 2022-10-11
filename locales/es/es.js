@@ -23,7 +23,7 @@ export default {
     aboutCarlos: 'Sobre Mi',
     menu_home: 'HOME',
     menu_about: 'SOBRE MI',
-    home: '/',
+    home: '/es',
     about_link: '/es/about',
     kinesiology: 'Kinesiologia',
     kinesiology_link: '/es/kinesiology',
