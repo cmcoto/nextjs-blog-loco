@@ -64,4 +64,6 @@ export default {
     correct_link: '/en/corrective-exercise',
     schedule: 'Schedule a session with me:',
     holistic: 'Holistic Kinesiology',
+    cuarto: 'Therapy Room Located at:',
+    papeles: 'Papers and documents at:',
   };

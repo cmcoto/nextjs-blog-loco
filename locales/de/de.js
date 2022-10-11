@@ -64,4 +64,6 @@ export default {
     correct_link: '/de/corrective-exercise',
     schedule: 'Vereinbaren Sie einen Termin mit mir:',
     holistic: 'Ganzheitliche Kinesiologie',
+    cuarto: 'Therapieraum Standort:',
+    papeles: 'Unterlagen und Dokumente unter:',
   };

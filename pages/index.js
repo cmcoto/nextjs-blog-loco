@@ -202,12 +202,12 @@ export default function Home({ allPostsData }) {
             </motion.a>
 
             <motion.a animate={{boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)"}} 
-            whileHover={{
-              scale: 1.1,
-              transition: { duration: 0.1 },
-            }}
+            //whileHover={{
+             // scale: 1.1,
+              //transition: { duration: 0.1 },
+            //}}
             whileTap={{ scale: 0.9 }}
-            href="https://nextjs.org/learn" className={utilStyles.card} style={{backgroundColor: "#717CA3"}}>
+            href="" className={utilStyles.card} style={{backgroundColor: "#717CA3"}}>
               <img src={('../images/manik.png')} />
               <h2> {t.psychology} &rarr;</h2>
               <li>{t.anxiety}</li>
@@ -259,10 +259,10 @@ export default function Home({ allPostsData }) {
 {/*<!-- Calendly badge widget end -->*/}
       </section>
       <section className="Address" id="Address">
-        <h2>Therapy Room Located at:</h2>
+        <h2>{t.cuarto}</h2>
         <h2>@ Rötistrasse 2a, 4532 Feldbrunnen-St. Niklaus</h2>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2709.8070169261837!2d7.55348261551794!3d47.2203582225725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791d794a612c8fd%3A0x8ffeda9833664de2!2sR%C3%B6tistrasse%202A%2C%204532%20Feldbrunnen-St.%20Niklaus!5e0!3m2!1sen!2sch!4v1659449761985!5m2!1sen!2sch" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <h3>Papers and documents at:</h3>
+      <h3>{t.papeles}</h3>
       <h3>Solothurnstrasse 51, 2543 Lengnau BE</h3>
       </section>
     </div>
