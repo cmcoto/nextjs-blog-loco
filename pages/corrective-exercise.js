@@ -52,7 +52,7 @@ export default function Corrective() {
         <p> { t.p3 }</p>
         <p> { t.p4 }</p>
         <p> { t.p5 }</p>
-        <p> { t.p6 }</p>
+        <h3> { t.p6 }</h3>
          
         
     </section>
