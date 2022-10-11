@@ -1,5 +1,3 @@
+Sitemap: https://www.kinesiologie-coto.ch/api/sitemap
 User-Agent: *
-Disallow: /?*
-Disallow: */media/*
-
-Crawl-delay: 5
+Disallow: 
