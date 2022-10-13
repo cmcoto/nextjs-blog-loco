@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import en from '../locales/en/en';
 import de from '../locales/de/de';
 import es from '../locales/es/es';
+import { Box, Center, Circle } from "@chakra-ui/react";
 
 
 
@@ -35,6 +36,9 @@ export default function Welcome() {
         {t.welcome} <Link href="/about"><a>Carlos Coto</a></Link>
         </h3>
         
+        <Circle size='40px' bg='tomato' color='white'>
+    
+  </Circle>
         <a className={styles.center} href="tel:+41798591050">+41 79 859 10 50</a>
        
         {/*<Link href="/#Scheduler" scroll={false}><a>Book a Session!</a></Link>*/}

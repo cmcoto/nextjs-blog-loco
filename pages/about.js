@@ -14,6 +14,9 @@ import about_de from '../locales/de/about_de';
 import about_en from '../locales/en/about_en';
 import about_es from '../locales/es/about_es';
 import { Heading } from '@chakra-ui/react'
+import { Box, Center, Flex, Spacer } from "@chakra-ui/react";
+
+
 
 export default function Coto() {
   const router = useRouter();
@@ -31,6 +34,11 @@ export default function Coto() {
       <Head>
         <title>About Carlos Coto</title>
       </Head>
+
+      <Center h="70vh">
+      <Box p="5" maxW="320px" borderWidth="1px">
+        
+        <Flex align="baseline" mt={2}>
       <Link href="/">
               <a>
                 <Image 
@@ -43,10 +51,16 @@ export default function Coto() {
                 />
               </a>
             </Link>
+          </Flex>
+          </Box>
+    </Center>
+    <Spacer />
+
       <div className="middlePage"> 
     <section className={utilStyles.headingMd}>
         
         <Heading color="800">{ t.aboutCarlos }</Heading>
+        
         <p> { t.p1 }</p>
         <p> { t.p2 }</p>
          <p> 
