@@ -13,6 +13,7 @@ import { useRouter } from 'next/router';
 import en from '../locales/en/en';
 import de from '../locales/de/de';
 import es from '../locales/es/es';
+import { Heading } from '@chakra-ui/react'
 
 
 export default function Home({ allPostsData }) {
@@ -253,7 +254,7 @@ export default function Home({ allPostsData }) {
         </ul>
           </section>*/}
       <section className="Scheduler" id="Scheduler">
-        <h2>{ t.schedule }</h2>
+        <Heading as='h2' size='xl'>{ t.schedule }</Heading>
       {/*<!-- Calendly badge widget begin -->*/}
       <InlineWidget url="https://calendly.com/cmcoto" />
 {/*<!-- Calendly badge widget end -->*/}
