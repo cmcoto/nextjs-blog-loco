@@ -13,6 +13,7 @@ import es from '../locales/es/es';
 import about_de from '../locales/de/about_de';
 import about_en from '../locales/en/about_en';
 import about_es from '../locales/es/about_es';
+import { Heading } from '@chakra-ui/react'
 
 export default function Coto() {
   const router = useRouter();
@@ -45,7 +46,7 @@ export default function Coto() {
       <div className="middlePage"> 
     <section className={utilStyles.headingMd}>
         
-        <h3>{ t.aboutCarlos }</h3>
+        <Heading color="800">{ t.aboutCarlos }</Heading>
         <p> { t.p1 }</p>
         <p> { t.p2 }</p>
          <p> 
