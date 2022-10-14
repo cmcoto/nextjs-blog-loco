@@ -11,9 +11,11 @@ body {
   background: #909863;
 }
 
-* {
+/*Este codigo estaba haciendo que apareciera espacio verde en Movil
+/* *{
   /*box-sizing: border-box;*/
-}
+/*} */
+
 
 .Welcome {
   
