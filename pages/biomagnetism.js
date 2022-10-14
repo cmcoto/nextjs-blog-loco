@@ -10,6 +10,8 @@ import en from '../locales/en/en';
 
 import de from '../locales/de/de';
 import es from '../locales/es/es';
+import { Heading } from '@chakra-ui/react'
+import { Box, Center, Flex, Spacer } from "@chakra-ui/react";
 
 
 export default function Biomagnetism() {
@@ -42,7 +44,7 @@ export default function Biomagnetism() {
       <div className="middlePage"> 
     <section className={utilStyles.headingMd}>
         
-        <h3>{t.biomagnetism}</h3>
+        <Heading color="800" pb="1rem">{t.biomagnetism}</Heading>
 
         <p>{ t.biomagnetism_1 }</p>
         <p>{ t.biomagnetism_2 }</p>

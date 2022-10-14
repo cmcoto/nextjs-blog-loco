@@ -13,6 +13,8 @@ import es from '../locales/es/es';
 import corrective_de from '../locales/de/corrective_de';
 import corrective_en from '../locales/en/corrective_en';
 import corrective_es from '../locales/es/corrective_es';
+import { Heading } from '@chakra-ui/react'
+import { Box, Center, Flex, Spacer } from "@chakra-ui/react";
 
 export default function Corrective() {
   const router = useRouter();
@@ -46,7 +48,7 @@ export default function Corrective() {
       
     <section className={utilStyles.headingMd}>
         
-        <h3>{ t.corrective_title }</h3>
+        <Heading color="800" pb="1rem">{ t.corrective_title }</Heading>
         <p> { t.p1 }</p>
         <p> { t.p2 }</p>
         <p> { t.p3 }</p>

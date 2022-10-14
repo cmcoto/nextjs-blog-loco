@@ -10,6 +10,8 @@ import en from '../locales/en/en';
 
 import de from '../locales/de/de';
 import es from '../locales/es/es';
+import { Heading } from '@chakra-ui/react'
+import { Box, Center, Flex, Spacer } from "@chakra-ui/react";
 
 
 export default function Kinesiology() {
@@ -42,7 +44,7 @@ export default function Kinesiology() {
       <div className="middlePage"> 
     <section className={utilStyles.headingMd}>
         
-        <h3>{t.kinesiology}</h3>
+        <Heading color="800" pb="1rem">{t.kinesiology}</Heading>
 
         <p>{ t.kine_page_p1 }</p>
         <p>{ t.kine_page_p2 }</p>

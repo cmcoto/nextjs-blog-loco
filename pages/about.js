@@ -59,7 +59,7 @@ export default function Coto() {
       <div className="middlePage"> 
     <section className={utilStyles.headingMd}>
         
-        <Heading color="800">{ t.aboutCarlos }</Heading>
+        <Heading color="800" pb="1rem">{ t.aboutCarlos }</Heading>
         
         <p> { t.p1 }</p>
         <p> { t.p2 }</p>
